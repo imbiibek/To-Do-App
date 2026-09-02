@@ -1,5 +1,6 @@
 import TodoForm from './components/TodoForm'
 import TodoList from './components/TodoList'
+import CompletedList from './components/CompletedList'
 
 function App() {
     return (
@@ -7,6 +8,7 @@ function App() {
             <h1 className="text-2xl font-bold mb-4 text-center">Todo App</h1>
             <TodoForm />
             <TodoList />
+            <CompletedList />
         </div>
     )
 }
